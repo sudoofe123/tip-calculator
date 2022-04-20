@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(248, 159, 251), rgb(192, 235, 247));
+}
+
+.tip-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 5rem;
+
+  width: 80vw;
+  background-color: #fff;
+  /* border-radius: 10px; */
+}
+.container {
+  box-shadow: 1px 3px 12px 6px rgb(103, 95, 95);
+  border-radius: 2rem;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: aqua;
+  background: linear-gradient(to right, rgb(248, 159, 251), #16c2f2);
+  background: linear-gradient(to right, rgb(248, 159, 251), rgb(192, 235, 247));
+
+  padding: 0.8rem 0;
+}
+
+.tip-container div,
+label {
+  display: flex;
+
+  margin-top: 0.8rem;
+
+  width: 90%;
+  justify-content: start;
+
+  text-align: center;
+  align-items: center;
+}
+
+input,
+select {
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  text-align: justify;
+  width: 100%;
+}
+label {
+  font-size: 1.6rem;
+
+  /* border: 1px solid grey; */
+}
+
+.btn {
+  width: 35%;
+  background-color: aqua;
+  background: linear-gradient(to right, rgb(248, 159, 251), rgb(192, 235, 247));
+  padding: 0.8rem 1rem;
+  border: none;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+i {
+  border: 2px solid rgb(18, 18, 18);
+  padding: 0.8rem 1rem;
+  background-color: aqua;
+  background: linear-gradient(to right, rgb(248, 159, 251), rgb(192, 235, 247));
+}
+
+.newEl {
+  display: flex;
+  flex-direction: column;
+}
+
+.tip-content h3 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 1rem;
+  }
+  .tip-container {
+    padding: 0;
+  }
+  .container {
+    margin: 0;
+  }
+}

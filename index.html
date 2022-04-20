@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="container">
+    <h1>Tip Calculator</h1>
+    <form action="" class="tip-container">
+     
+      <label for=""> How Much Was Your Bill ?</label>
+      <div>
+     
+      <i class="fa-solid fa-id-card"></i>
+      <input type="number" class="bill" >
+    
+    
+     
+    </div>
+
+
+    <label for=""> How Many People Sharing The Bill ?</label>
+    <div>
+      
+      <i class="fa-solid fa-hand-holding-dollar"> </i>
+      <input type="number" class="share-bill" />
+     
+
+    </div>
+   
+
+    <label for="">How Was our Service</label>
+ <div>
+       
+        <select name="" id="select">
+          <option value="">Choose</option>
+          <option value=".2">Great 20%</option>
+          <option value=".1">Good 10%</option>
+          <option value=".02">Bad 2%</option>
+        </select>
+</div>
+        <button class="btn">Calculate</button>
+
+        <div class="tip-content">
+            <!-- <div class="newEl">
+            <h3>Tip Amount -$345</h3>
+            <h3>Total Amount-$55</h3>
+            <h3>Each person Owes -$7172</h3>
+        </div> -->
+        </div>
+      </div>
+    
+     
+    </form>
+    </div>
+   <script src="script.js"></script>
+  </body>
+</html>
